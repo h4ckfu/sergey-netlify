@@ -6,7 +6,7 @@ body {
 	line-height: 1.5;
 	color: #555;
 	font-family: 'Lato', sans-serif;
-  font-size: calc(14px + (20 - 14) * (100vw - 320px) / (750 - 320));
+  font-size: 1.33em;
   margin: 0;
 }
 
@@ -59,12 +59,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-h1 { font-size: 36px; }
-h2 { font-size: 30px; }
-h3 { font-size: 24px; }
-h4 { font-size: 18px; }
-h5 { font-size: 14px; }
-h6 { font-size: 12px; }
+h1 { font-size: 1.75rem; }
+h2 { font-size: 1.66rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.33rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1.1rem; }
 
 /* Typography */
 
@@ -128,7 +128,8 @@ code {font-size: 0.9em;}
 	display: block;
   max-width: 100%;
   float:left;
-  margin: 0 2em;
+  margin: 1em 2em;
+
 }
 
 #logo a.standard-logo { display: block; }
