@@ -10,11 +10,19 @@ body {
   margin: 0;
 }
 
+body.stretched .container-fullwidth {
+	position: relative;
+	padding: 0 60px;
+	width: 100%;
+}
+
 a {text-decoration: none !important; color: #1ABC9C;}
 
 a:hover { color: #222; }
 
 a img { border: none; }
+
+
 
 
 
@@ -114,6 +122,21 @@ code {font-size: 0.9em;}
 [role='contentinfo'] .deploy {
   max-width: 40%;
 }
+
+
+#logo a {
+	display: block;
+	color: #000;
+}
+
+#logo img {
+	display: block;
+	max-width: 100%;
+}
+
+#logo a.standard-logo { display: block; }
+
+#logo a.retina-logo { display: none; }
 
 .uppercase { text-transform: uppercase !important; }
 .lowercase { text-transform: lowercase !important; }
