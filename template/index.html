@@ -1,10 +1,31 @@
 <sergey-import src="template">
   <p>
-    This MY DAMN is template-driven page located at: <code>/template/index.html</code>,
-    using <code>/_imports/template.html</code>
+      When making templates try to enforce a core structure, but avoid enforcing a particular context. Most uses of the template have a different context. Do this for every template used by one of these templates, and so on.
   </p>
-  <p>
-    Templates work in the same way as any other
-    <code>&lt;sergey-import /&gt;</code>
-  </p>
+      
+    <p>
+      Use block variables to specify sections of your template that people are likely to change; Usually where they want to replace their own content.Core templates should ideally be simple generic components that can be used in other templates to create more complex page layouts.
+    </p>
+
+    <p>
+      They should be so flexible that developers and themes can easily use them without having to replace the template.
+      The templates should try to encapsulate a core structure for the element as well as key classes, while the content can be easily overridden.
+    </p>
+    
+    <p>
+      Finally, we want to avoid duplicating HTML from template to template, especially if there are some classes associated with the HTML element. If there are any, repeat the above steps for them as well.
+    </p>
+
+    <p>
+      Write a test page that uses your template to identify some of the assumptions that might appear in the template.
+      The sample context that you provide in the template is mainly used to display the template in the template library, and it's probably not what your template actually is.
+    </p>
+
+    <p>
+      It should ideally be independent of the HTML structure, to achieve this, it is important to identify the key components of the template. The rendering method can be refreshed to export the data and render with the template.
+      In the simplest case, where you have a renderable, template-capable object with a class name that matches the name of the template it renders, you do not need to add renderer code explicity.
+    </p>
+
+
+
 </sergey-import>
