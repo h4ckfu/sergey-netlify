@@ -131,7 +131,9 @@ code {font-size: 0.9em;}
 
 #logo img {
 	display: block;
-	max-width: 100%;
+  max-width: 100%;
+  float:left;
+  margin-right: 25px;
 }
 
 #logo a.standard-logo { display: block; }
