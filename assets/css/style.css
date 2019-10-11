@@ -126,14 +126,9 @@ code {font-size: 0.9em;}
 
 #logo a {
 	display: block;
-	color: #000;
-}
-
-#logo img {
-	display: block;
   max-width: 100%;
   float:left;
-  margin-right: 25px;
+  margin: 2em;
 }
 
 #logo a.standard-logo { display: block; }
