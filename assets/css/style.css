@@ -28,6 +28,7 @@ small { font-family: 'Lato', sans-serif; }
 
 
 
+
 img {
   max-width: 100%;
   display: block;
@@ -113,3 +114,13 @@ code {font-size: 0.9em;}
 [role='contentinfo'] .deploy {
   max-width: 40%;
 }
+
+.uppercase { text-transform: uppercase !important; }
+.lowercase { text-transform: lowercase !important; }
+.capitalize { text-transform: capitalize !important; }
+.nott { text-transform: none !important; }
+.tright { text-align: right !important; }
+.tleft { text-align: left !important; }
+.fright { float: right !important; }
+.fleft { float: left !important; }
+.fnone { float: none !important; }
